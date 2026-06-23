@@ -1,16 +1,16 @@
-# World Happiness Report 2023 — Exploratory Data Analysis
+# World Happiness Report 2023: Exploratory Data Analysis
 
 > Exploratory Data Analysis on the World Happiness Report 2023, focusing on the relationship between Ladder Score and Healthy Life Expectancy across the Top 15 happiest countries.
 
 ---
 
-## Objective
+## Objective:
 
 To find the relationship between **Ladder Score** (Happiness Score) and **Healthy Life Expectancy** among the Top 15 happiest countries in the world (2023).
 
 ---
 
-## Dataset
+## Dataset:
 
 - **Source:** [Kaggle: World Happiness Report 2023](https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2023)
 - **Scope:** Filtered to the **Top 15 happiest countries** of 2023
@@ -30,7 +30,7 @@ To find the relationship between **Ladder Score** (Happiness Score) and **Health
 
 ---
 
-## Libraries Used
+## Libraries Used:
 
 ```python
 import pandas as pd
@@ -41,7 +41,7 @@ import seaborn as sns
 
 ---
 
-## Graphs & Analysis
+## Graphs & Analysis:
 
 The following charts were used to explore the data:
 
@@ -54,22 +54,22 @@ The following charts were used to explore the data:
 
 ---
 
-## Key Findings
+## Key Findings:
 
 - There is a **moderate positive correlation (r ≈ 0.45)** between Healthy Life Expectancy and Ladder Score
 - **Social Support (r ≈ 0.63)** and **Freedom (r ≈ 0.60)** are the strongest predictors of happiness within this group
-- The **United States** is a consistent outlier, it has the lowest HLE (65.85 years) and the lowest Ladder Score (6.894) among the Top 15, despite being in the global top tier
+- The **United States** is a consistent outlier; it has the lowest HLE (65.85 years) and the lowest Ladder Score (6.894) among the Top 15, despite being in the global top tier
 - Most top-ranked countries have HLE clustered tightly between **71–73 years**, showing similar health outcomes
 
 ---
 
-## Conclusion
+## Conclusion:
 
 The objective was fulfilled. The EDA confirms a **moderate positive relationship** between Healthy Life Expectancy and Ladder Score. However, HLE alone does not fully determine happiness — social support and personal freedom play an equally significant role at this level.
 
 ---
 
-## 📁 Project Structure
+## Project Structure:
 
 ```
 world-happiness-eda/
@@ -81,7 +81,7 @@ world-happiness-eda/
 
 ---
 
-## How to Run
+## How to Run:
 
 1. Clone the repository
 ```bash
